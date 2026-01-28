@@ -21,7 +21,7 @@ body {
 header {
   position: sticky;
   top: 0;
-  background: white;
+  background: rgb(20, 208, 155);
   z-index: 1000;
 }
 
