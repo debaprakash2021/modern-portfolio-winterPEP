@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
