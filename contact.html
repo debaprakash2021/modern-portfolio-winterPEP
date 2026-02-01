@@ -13,14 +13,54 @@
   </nav>
 </header>
 
-<form>
-  <input type="text" placeholder="Name" required minlength="3">
-  <input type="email" placeholder="Email" required>
-  <textarea placeholder="Message"></textarea>
-  <button type="submit">Send</button>
-</form>
+<form class="contact-form" novalidate>
+  <div class="form-grid">
+    <div class="field">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your full name" required minlength="3">
+      <small class="hint">Minimum 3 characters</small>
+    </div>
 
-<footer>© 2026</footer>
+    <div class="field">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+      <small class="hint">We'll use this to reply</small>
+    </div>
 
+    <div class="field">
+      <label for="phone">Phone (optional)</label>
+      <input id="phone" name="phone" type="tel" placeholder="+91 1234567890">
+    </div>
+
+    <div class="field">
+      <label for="subject">Subject</label>
+      <input id="subject" name="subject" type="text" placeholder="Project or inquiry subject">
+    </div>
+
+    <div class="field full">
+      <label for="projectType">Project type</label>
+      <select id="projectType" name="projectType">
+        <option value="general">General inquiry</option>
+        <option value="collab">Project collaboration</option>
+        <option value="bug">Bug report</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="field full">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Describe your message" rows="6"></textarea>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <button class="btn btn-primary" type="submit">Send Message</button>
+    <button class="btn btn-secondary" type="reset">Reset</button>
+  </div>
+</form> 
+
+<footer>© 2026 by Debaprakash Jena</footer>
+
+<script src="scripts/main.js"></script>
 </body>
 </html>

@@ -1,25 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title>Projects</title>
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/responsive.css">
-</head>
-<body>
+  <head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
 
-<header>
-  <nav class="navbar">
-    <a href="index.html">Home</a>
-  </nav>
-</header>
+    <section class="projects-section">
+      <div class="projects-header">
+        <h2>Selected Projects</h2>
+        <p class="subtitle">A curated selection of projects showcasing frontend craftsmanship and full-stack engineering.</p>
+      </div>
 
-<section class="gallery">
-  <img src="images/profile.jpg">
-  <img src="images/profile.jpg">
-  <img src="images/profile.jpg">
-</section>
+      <section class="gallery" aria-label="Project gallery">
+        <article class="project-div">
+          <div class="project-card">
+            <div class="project-media">
+              <img class="project-img" id="momentum" src="momentum.png" alt="Momentum — Premium Video Platform" />
+              <span class="project-flag">Featured</span>
+            </div>
 
-<footer>© 2026</footer>
+            <div class="project-content">
+              <div class="project-meta">
+                <h3 id="project-1-title">Momentum — Premium Video Platform</h3>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">Framer Motion</span>
+                </div>
+              </div>
 
-</body>
+              <div class="project-details" aria-labelledby="project-1-title">
+                <ul>
+                  <li>Developed a premium video content platform tailored for entrepreneurs, delivering curated insights from successful founders.</li>
+                  <li>Implemented multi-role authentication supporting viewers, content creators, and administrators with role-specific access control.</li>
+                  <li>Built a custom interactive video player with advanced controls and smooth animations using Framer Motion.</li>
+                  <li>Designed a scalable, modular frontend architecture using React, TypeScript, and shadcn/ui for long-term maintainability.</li>
+                  <li>Integrated analytics dashboards to track user engagement and content performance for creators and admins.</li>
+                  <li>Delivered a fully responsive, theme-aware UI with automatic dark/light mode switching using Tailwind CSS.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-div">
+          <div class="project-card">
+            <div class="project-media">
+              <img class="project-img" id="mahalaxmi" src="mahalaxmiVendor.png" alt="Mahalaxmi Vendor Ordering Platform" />
+              <span class="project-flag">Full Stack</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <h3 id="project-2-title">Vendor Ordering Platform</h3>
+                <div class="project-tags">
+                  <span class="tag">Node.js</span>
+                  <span class="tag">MongoDB</span>
+                  <span class="tag">Tailwind</span>
+                </div>
+              </div>
+
+              <div class="project-details" aria-labelledby="project-2-title">
+                <ul>
+                  <li>Designed and developed a full-stack vendor ordering platform with secure authentication and role-based access for vendors and admins.</li>
+                  <li>Implemented JWT-based authentication to ensure secure login, session management, and protected APIs.</li>
+                  <li>Built an automated email notification system using Resend APIs, delivering HTML-styled transactional emails without SMTP bottlenecks.</li>
+                  <li>Integrated dynamic PDF invoice generation using PDFKit for every order, improving order transparency and record-keeping.</li>
+                  <li>Engineered a premium, responsive UI using Tailwind CSS and Framer Motion with glassmorphism effects and smooth micro-animations.</li>
+                  <li>Deployed a production-grade architecture with React (Vercel) on the frontend and Node.js/Express + MongoDB (Render) on the backend.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-div">
+          <div class="project-card">
+            <div class="project-media">
+              <img class="project-img" id="labour" src="labourLaws.png" alt="Civic-Tech Labour Portal" />
+              <span class="project-flag">Civic Tech</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <h3 id="project-3-title">Civic-Tech Labour Portal</h3>
+                <div class="project-tags">
+                  <span class="tag">PHP</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Accessibility</span>
+                </div>
+              </div>
+
+              <div class="project-details" aria-labelledby="project-3-title">
+                <ul>
+                  <li>Built a civic-tech web portal to raise labour law awareness and streamline labour-related complaint submissions.</li>
+                  <li>Implemented user authentication and authorization using PHP to securely manage user and admin access.</li>
+                  <li>Designed a structured complaint-filing workflow, enabling users to submit, track, and manage complaints efficiently.</li>
+                  <li>Developed an admin dashboard for monitoring, updating, and resolving complaints in a centralized system.</li>
+                  <li>Integrated PHP–MySQL database connectivity to ensure reliable data storage and retrieval.</li>
+                  <li>Created a responsive and user-friendly interface using HTML, CSS, Tailwind CSS, and JavaScript.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+    </section>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 by Debaprakash Jena</footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
