@@ -4,7 +4,7 @@
 A personal portfolio website that showcases projects, skills, and contact information. Built with semantic HTML and modern CSS (responsive layout, accessible UI, and subtle animations). This repository contains the full static site (no build tool required), ready to deploy to GitHub Pages or serve from any static host.
 
 ## Live Demo
-`https://<your-username>.github.io/<repo-name>/`
+`https://debaprakash2021.github.io/modern-portfolio-winterPEP/`
 
 ## Features
 - Clean, responsive design with mobile-first breakpoints
